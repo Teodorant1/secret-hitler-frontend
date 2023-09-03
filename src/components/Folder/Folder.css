@@ -1,0 +1,24 @@
+.folder {
+    width: fit-content;
+    min-width: 200px;
+    padding: 30px;
+    height: fit-content;
+    min-height: 135px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: #E1C16E;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.59);
+}
+
+.folder:before {
+    content: '';
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: #CD7F32;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
