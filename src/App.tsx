@@ -5,6 +5,7 @@ import { useState } from 'react';
 import MClong from "./SoundFX/MClong.wav"
 import MCshort from "./SoundFX/MCshort.wav"
 import Folder from './components/Folder/Folder';
+import GamePage from './pages/GamePage';
 
 
 function App() {
@@ -75,8 +76,9 @@ const [minisymbols , setminisymbols] = useState<string[]>([".","-",".","."])
 
           Learn React
 
-        </a> <Folder/>
-                <button onClick={()=>{playMorseText(symbols)}} > Click Here to make noise </button>
+        </a><Folder/>
+            <button onClick={()=>{playMorseText(symbols)}} > Click Here to make noise </button>
+            <GamePage/>
       </header>
     </div>
   );
