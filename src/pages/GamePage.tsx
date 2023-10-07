@@ -31,7 +31,7 @@ const [stage , setstage] = useState<string>("stage")
 const [substage , setsubstage] = useState<string>("substage")
 const [vetoenabled , setvetoenabled] = useState<boolean>(false)
 
-interface ExportJson {
+type ExportJson = {
 Playernames: string[];     
 Libdecs: number;          
 Fashdecs: number;        
